@@ -14,7 +14,8 @@ const app = express();
 // Middleware
 app.use(bodyParser.json());
 app.use(cors());
-app.use(morgan('tiny')); 
+app.use(morgan('tiny'));
+ 
 app.use(express.json());
 
 
